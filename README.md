@@ -49,6 +49,7 @@ Make sure to put your phone on airplane mode when running inference.
 
 ### Tips for Better Performance
 
+- A computer with a powerfull GPU for better inference 
 - Adequate lighting improves detection accuracy
 - Minimize background clutter for better results
 - Position items so they are clearly visible and not obscured
@@ -56,5 +57,6 @@ Make sure to put your phone on airplane mode when running inference.
 
 
 
-It was a cool task that helped me understand how object detection models work in real-world scenarios, even with a simple dataset of everyday office items from my desk.
+
+It was a cool task that helped me understand how object detection models work in real-world scenarios, even with a simple dataset of everyday office items from my desk. 
 
