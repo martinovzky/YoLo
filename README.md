@@ -1,6 +1,6 @@
 # Office Items YOLOv8m Object Detection
 
-This is my object detection project for identifying office items using YOLOv8m. I created this model for my computer vision class project during Easter break when I was back in my bedroom at home. The only objects readily available to detect around me were office items from my desk, so I decided to finetune YOLOv8 on this dataset as a way to learn how these models work and how to use them in practice.
+Object detection project for identifying office items using YOLOv8m. I made this project during Easter break when I was back in my bedroom at home. The only objects readily available to detect around me were office items from my desk, so I decided to finetune YOLOv8 on this dataset as a way to learn how these models work and how to use them in practice.
 
 ## Dataset
 
@@ -8,7 +8,7 @@ https://universe.roboflow.com/workspace1-1gbmx/office-items-plugt/dataset/26
 
 ## Model Training
 
-I trained this model on Google Colab using their L4 GPU. The training process used the following parameters:
+THe model was trained on Google Colab using their L4 GPU. Hyperparameters:
 
 - **Model**: YOLOv8m (medium size)
 - **Epochs**: 50
@@ -23,16 +23,16 @@ By the end of training (epoch 50), the model achieved:
 - Precision: 0.725
 - Recall: 0.682
 
-These metrics indicate the model performs well at detecting office items.
+These metrics indicate the model performs reasonably well at detecting office items, though there's definitely potential for further improvement with more data or tuning.
 
-### Training Visualization
+**Training Results (Metrics Curves):**
+<img src="./runs/train/OfficeItems_yolov8m/results.png" alt="Training Results" width="500"/>
 
-The training process generated visualizations to monitor performance:
-- Confusion matrix showing how well the model distinguishes between different office items
-- Precision-recall curves displaying the model's accuracy
-- Training batch images showing what the model "sees" during training
+**Confusion Matrix (Normalized):**
+<img src="./runs/train/OfficeItems_yolov8m/confusion_matrix_normalized.png" alt="Confusion Matrix" width="500"/>
 
-All these visualization files are available in the `runs/train/OfficeItems_yolov8m/` folder.
+The other visualization files are available in the `runs/train/OfficeItems_yolov8m/` folder
+
 
 ## Using the Model
 
@@ -54,13 +54,7 @@ Make sure to put your phone on airplane mode when running inference.
 - Position items so they are clearly visible and not obscured
 - Adjust camera angle as needed for optimal detection
 
-## What I Learned
 
-This project gave me hands-on experience with:
-- Data preparation and augmentation techniques
-- Hyperparameter tuning
-- The importance of quality training data
-- Practical applications of computer vision models
 
 It was a cool task that helped me understand how object detection models work in real-world scenarios, even with a simple dataset of everyday office items from my desk.
 
