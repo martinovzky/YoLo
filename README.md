@@ -26,9 +26,13 @@ By the end of training (epoch 50), the model achieved:
 These metrics indicate the model performs reasonably well at detecting office items, though there's definitely potential for further improvement with more data or tuning.
 
 **Training Results (Metrics Curves):**
+
+
 <img src="./OfficeItems_yolov8m/results.png" alt="Training Results" width="500"/>
 
 **Confusion Matrix (Normalized):**
+
+
 <img src="./OfficeItems_yolov8m/confusion_matrix_normalized.png" alt="Confusion Matrix" width="500"/>
 
 The other visualization files are available in the `runs/train/OfficeItems_yolov8m/` folder
