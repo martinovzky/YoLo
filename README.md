@@ -2,7 +2,7 @@
 
 Object detection project for identifying office items using YOLOv8m. I made this project during Easter break when I was back in my bedroom at home. The only objects readily available to detect around me were office items from my desk, so I decided to finetune YOLOv8 on this dataset as a way to learn how these models work and how to use them in practice.
 
-<img src="assets/webcam.jpg" alt="YOLO Detection" width="600"/>
+<img src="./webcam.jpg" alt="YOLO Detection" width="600"/>
 
 ## Dataset
 
